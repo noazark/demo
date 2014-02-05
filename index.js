@@ -7,6 +7,6 @@ http.createServer(function (req, res) {
 
   res.write('Separation of good and evil.\n')
 
-  res.end('Hello good sir.');
+  res.end('Super! Hello good sir.');
 }).listen(PORT);
 console.log('Server running at http://127.0.0.1:' + PORT + '/');
